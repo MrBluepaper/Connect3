@@ -24,6 +24,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="0"
             />
 
         <ImageView
@@ -34,6 +36,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="1"
             />
 
         <ImageView
@@ -44,6 +48,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="2"
             />
 
         <ImageView
@@ -54,6 +60,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="3"
             />
 
         <ImageView
@@ -64,6 +72,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="4"
             />
 
         <ImageView
@@ -74,6 +84,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="5"
             />
 
         <ImageView
@@ -84,6 +96,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="6"
             />
 
         <ImageView
@@ -94,6 +108,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="7"
             />
 
         <ImageView
@@ -104,6 +120,8 @@
             app:layout_columnWeight="1"
             app:layout_rowWeight="1"
             android:layout_margin="10dp"
+            android:onClick="clickBoard"
+            android:tag="8"
             />
     </android.support.v7.widget.GridLayout>
 </RelativeLayout>

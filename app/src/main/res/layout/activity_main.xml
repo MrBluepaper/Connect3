@@ -15,4 +15,16 @@
         android:onClick="startGame"
         android:layout_centerInParent="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluepaper Company ;)"
+        android:layout_below="@+id/btn_start"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#248891"
+        />
+
 </RelativeLayout>
