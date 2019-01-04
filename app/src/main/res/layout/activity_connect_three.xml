@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ConnectThree">
 
-</android.support.constraint.ConstraintLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:columnCount="3"
+        app:rowCount="3"
+        android:id="@+id/gl_board"
+        android:background="@drawable/board">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="0"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="0"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="0"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="1"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="1"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="1"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="2"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="2"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_row="2"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_margin="10dp"
+            />
+    </android.support.v7.widget.GridLayout>
+</RelativeLayout>

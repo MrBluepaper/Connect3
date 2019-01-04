@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void startGame(View v){
         if (v.getId() == R.id.btn_start){
-            new Intent(MainActivity.this, ConnectThree.class);
+            finish();
+            startActivity(new Intent(MainActivity.this, ConnectThree.class));
         }
     }
 }
